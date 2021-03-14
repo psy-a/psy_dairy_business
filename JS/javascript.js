@@ -100,23 +100,23 @@ var salesFebruary = function () {
 }
 var salesMarch = function () {
     var salesDay1 = totalMonday * 45;
-    alert ("Total March Sales are KSh "+ salesDay1 * 30 +".")
+    alert ("Total March Sales are KSh "+ salesDay1 * 31 +".")
 }
 var salesApril = function () {
     var salesDay1 = totalMonday * 45;
-    alert ("Total April Sales are KSh "+ salesDay1 * 31 +".")
+    alert ("Total April Sales are KSh "+ salesDay1 * 30 +".")
 }
 var salesMay = function () {
     var salesDay1 = totalMonday * 45;
-    alert ("Total May Sales are KSh "+ salesDay1 * 30 +".")
+    alert ("Total May Sales are KSh "+ salesDay1 * 31 +".")
 }
 var salesJune = function () {
     var salesDay1 = totalMonday * 45;
-    alert ("Total June Sales are KSh "+ salesDay1 * 31 +".")
+    alert ("Total June Sales are KSh "+ salesDay1 * 30 +".")
 }
 var salesJuly = function () {
     var salesDay1 = totalMonday * 45;
-    alert ("Total July Sales are KSh "+ salesDay1 * 30 +".")
+    alert ("Total July Sales are KSh "+ salesDay1 * 31 +".")
 }
 var salesAugust = function () {
     var salesDay1 = totalMonday * 45;
@@ -148,23 +148,23 @@ var salesFebruary1 = function () {
 }
 var salesMarch1 = function () {
     var salesDay1 = totalMonday * 45;
-    return salesDay1 * 30;
+    return salesDay1 * 31;
 }
 var salesApril1 = function () {
     var salesDay1 = totalMonday * 45;
-    return salesDay1 * 31;
+    return salesDay1 * 30;
 }
 var salesMay1 = function () {
     var salesDay1 = totalMonday * 45;
-    return salesDay1 * 30;
+    return salesDay1 * 31;
 }
 var salesJune1 = function () {
     var salesDay1 = totalMonday * 45;
-    return salesDay1 * 31;
+    return salesDay1 * 30;
 }
 var salesJuly1 = function () {
     var salesDay1 = totalMonday * 45;
-    return salesDay1 * 30;
+    return salesDay1 * 31;
 }
 var salesAugust1 = function () {
     var salesDay1 = totalMonday * 45;
@@ -193,7 +193,37 @@ var newRateComparison = function () {
     var newSalesJanuary = totalMonday * (49.60 * 31);
     var difference = newSalesJanuary - salesJanuary1 ();
     alert ("New January Sales are KSh "+ newSalesJanuary +", an increase of KSh "+ difference +".")
-    var newSalesFebruary = totalMonday * (49.60 * 31);
+    var newSalesFebruary = totalMonday * (49.60 * 29);
     var difference = newSalesFebruary - salesFebruary1 ();
     alert ("New February Sales are KSh "+ newSalesFebruary +", an increase of KSh "+ difference +".")
+    var newSalesMarch = totalMonday * (49.60 * 31);
+    var difference = newSalesMarch - salesMarch1 ();
+    alert ("New March Sales are KSh "+ newSalesMarch +", an increase of KSh "+ difference +".")
+    var newSalesApril = totalMonday * (49.60 * 30);
+    var difference = newSalesApril - salesApril1 ();
+    alert ("New April Sales are KSh "+ newSalesApril +", an increase of KSh "+ difference +".")
+    var newSalesMay = totalMonday * (49.60 * 31);
+    var difference = newSalesMay - salesMay1 ();
+    alert ("New May Sales are KSh "+ newSalesMay +", an increase of KSh "+ difference +".")
+    var newSalesJune = totalMonday * (49.60 * 30);
+    var difference = newSalesJune - salesJune1 ();
+    alert ("New June Sales are KSh "+ newSalesJune +", an increase of KSh "+ difference +".")
+    var newSalesJuly = totalMonday * (49.60 * 31);
+    var difference = newSalesJuly - salesJuly1 ();
+    alert ("New July Sales are KSh "+ newSalesJuly +", an increase of KSh "+ difference +".")
+    var newSalesAugust = totalMonday * (49.60 * 31);
+    var difference = newSalesAugust - salesAugust1 ();
+    alert ("New August Sales are KSh "+ newSalesAugust +", an increase of KSh "+ difference +".")
+    var newSalesSeptember = totalMonday * (49.60 * 30);
+    var difference = newSalesSeptember - salesSeptember1 ();
+    alert ("New September Sales are KSh "+ newSalesSeptember +", an increase of KSh "+ difference +".")
+    var newSalesOctober = totalMonday * (49.60 * 31);
+    var difference = newSalesOctober - salesOctober1 ();
+    alert ("New October Sales are KSh "+ newSalesOctober +", an increase of KSh "+ difference +".")
+    var newSalesNovember = totalMonday * (49.60 * 30);
+    var difference = newSalesNovember - salesNovember1 ();
+    alert ("New November Sales are KSh "+ newSalesNovember +", an increase of KSh "+ difference +".")
+    var newSalesDecember = totalMonday * (49.60 * 31);
+    var difference = newSalesDecember - salesDecember1 ();
+    alert ("New December Sales are KSh "+ newSalesDecember +", an increase of KSh "+ difference +".")
 }
