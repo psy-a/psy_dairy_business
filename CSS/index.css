@@ -72,29 +72,17 @@ header {
   width: 200px;
   height: 70px;
 }
-#shedb {
-  margin: 10px 0 50px 0;
-  font-size: x-large;
-  font-family: "Courier New", Courier, monospace;
-  width: 200px;
-  height: 70px;
-}
-#shedc {
-  margin: 10px 0 50px 0;
-  font-size: x-large;
-  font-family: "Courier New", Courier, monospace;
-  width: 200px;
-  height: 70px;
-}
+#shedb,
+#shedc,
 #shedd {
-  margin: 10px 0 40px 0;
+  margin: 10px 0 50px 0;
   font-size: x-large;
   font-family: "Courier New", Courier, monospace;
   width: 200px;
   height: 70px;
 }
 #totalprod {
-  margin: 30px 0 40px 0;
+  margin: 20px 0 40px 0;
   font-size: x-large;
   font-family: "Courier New", Courier, monospace;
   width: 200px;
@@ -107,41 +95,11 @@ header {
   width: 200px;
   height: 50px;
 }
-#tuesday {
-  margin: 10px 0 20px 0;
-  font-size: x-large;
-  font-family: "Courier New", Courier, monospace;
-  width: 200px;
-  height: 50px;
-}
-#wednesday {
-  margin: 10px 0 20px 0;
-  font-size: x-large;
-  font-family: "Courier New", Courier, monospace;
-  width: 200px;
-  height: 50px;
-}
-#thursday {
-  margin: 10px 0 20px 0;
-  font-size: x-large;
-  font-family: "Courier New", Courier, monospace;
-  width: 200px;
-  height: 50px;
-}
-#friday {
-  margin: 10px 0 20px 0;
-  font-size: x-large;
-  font-family: "Courier New", Courier, monospace;
-  width: 200px;
-  height: 50px;
-}
-#saturday {
-  margin: 10px 0 20px 0;
-  font-size: x-large;
-  font-family: "Courier New", Courier, monospace;
-  width: 200px;
-  height: 50px;
-}
+#tuesday,
+#wednesday,
+#thursday,
+#friday,
+#saturday,
 #sunday {
   margin: 10px 0 20px 0;
   font-size: x-large;
@@ -220,4 +178,100 @@ header {
   height: 70px;
   font-size: x-large;
   font-family: "Courier New", Courier, monospace;
+}
+.bottom {
+  background-image: url(../Images/bottom2.jpg);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 500px) {
+  .bottom {
+    height: 200px;
+    width: 100%;
+  }
+  #monday {
+    margin: 0 0 20px 0;
+    font-size: large;
+    font-family: "Courier New", Courier, monospace;
+    width: 120px;
+    height: 50px;
+  }
+  #tuesday,
+  #wednesday,
+  #thursday,
+  #friday,
+  #saturday,
+  #sunday {
+    margin: 10px 0 20px 0;
+    font-size: large;
+    font-family: "Courier New", Courier, monospace;
+    width: 120px;
+    height: 50px;
+  }
+  #totalsales {
+    margin: 20px 0 15px 0;
+    font-size: large;
+    font-family: "Courier New", Courier, monospace;
+    width: 120px;
+    height: 60px;
+  }
+  #sheda {
+    margin: 5px 0 50px 0;
+    font-size: large;
+    font-family: "Courier New", Courier, monospace;
+    width: 120px;
+    height: 60px;
+  }
+  #shedb,
+  #shedc,
+  #shedd {
+    margin: 10px 0 50px 0;
+    font-size: large;
+    font-family: "Courier New", Courier, monospace;
+    width: 120px;
+    height: 60px;
+  }
+  #totalprod {
+    margin: 30px 0 40px 0;
+    font-size: large;
+    font-family: "Courier New", Courier, monospace;
+    width: 120px;
+    height: 60px;
+  }
+  header {
+    background-image: url(../Images/top1.jpg);
+    height: 200px;
+    width: 100%;
+  }
+  .headertext {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+  }
+  #farmname {
+    font-size: 2.2em;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #farmtag {
+    font-size: 0.8em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+  .yearlycompare {
+    margin-top: 20px;
+  }
+  #yearlytotal {
+    width: 120px;
+    height: 60px;
+    font-size: large;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #compare {
+    width: 120px;
+    height: 60px;
+    font-size: large;
+    font-family: "Courier New", Courier, monospace;
+  }
 }
