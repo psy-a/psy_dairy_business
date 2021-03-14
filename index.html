@@ -21,7 +21,7 @@
             <button id="shedb" onclick="productionShedB()"><strong>SHED B</strong></button>
             <button id="shedc" onclick="productionShedC()"><strong>SHED C</strong></button>
             <button id="shedd" onclick="productionShedD()"><strong>SHED D</strong></button>
-            <button id="totalprod" onclick="totalProductionToday()"><strong>TOTAL PRODUCTION</strong></button>
+            <button id="totalprod" onclick="totalProductionToday()"><strong>DAILY TOTAL</strong></button>
         </div>
         <div class="vline"></div>
         <div class="sales">
@@ -52,7 +52,10 @@
             <button id="november" onclick="salesNovember()"><strong>NOVEMBER</strong></button>
             <button id="december" onclick="salesDecember()"><strong>DECEMBER</strong></button>
         </div>
-        <button id="yearlytotal" onclick="totalYearlySales()"><strong>YEARLY TOTAL</strong></button>
+        <div class="yearlycompare">
+            <button id="yearlytotal" onclick="totalYearlySales()"><strong>YEARLY TOTAL</strong></button>
+            <button id="compare" onclick="totalYearlySales()"><strong>NEW RATE COMPARISON</strong></button>
+            </div>
     </div>
 </body>
 
