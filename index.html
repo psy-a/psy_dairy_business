@@ -1,63 +1,109 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PSY Dairy Farm</title>
-    <link rel="stylesheet" href="CSS/index.css" type="text/css">
-    <script  type="text/javascript" src="JS/javascript.js"></script>
-</head>
-<header>
+    <link rel="stylesheet" href="CSS/index.css" type="text/css" />
+    <script type="text/javascript" src="JS/javascript.js"></script>
+  </head>
+  <header>
     <div class="headertext">
-        <P id="farmname"><strong>PSY DAIRY FARM</strong></P>
-        <p id="farmtag">Fresh All Day</p>
+      <p id="farmname"><strong>PSY DAIRY FARM</strong></p>
+      <p id="farmtag">Fresh All Day</p>
     </div>
-</header>
-<body>
+  </header>
+  <body>
     <div class="prodsales">
-        <div class="prod">
-            <p id="prod"><strong>PRODUCTION</strong></p>
-            <button id="sheda" onclick="productionShedA()"><strong>SHED A</strong></button>
-            <button id="shedb" onclick="productionShedB()"><strong>SHED B</strong></button>
-            <button id="shedc" onclick="productionShedC()"><strong>SHED C</strong></button>
-            <button id="shedd" onclick="productionShedD()"><strong>SHED D</strong></button>
-            <button id="totalprod" onclick="totalProductionToday()"><strong>DAILY TOTAL</strong></button>
-        </div>
-        <div class="vline"></div>
-        <div class="sales">
-            <p id="sales"><strong>SALES</strong></p>
-            <button id="monday" onclick="productionMonday()"><strong>MONDAY</strong></button>
-            <button id="tuesday" onclick="productionTuesday()"><strong>TUESDAY</strong></button>
-            <button id="wednesday" onclick="productionWednesday()"><strong>WEDNESDAY</strong></button>
-            <button id="thursday" onclick="productionThursday()"><strong>THURSDAY</strong></button>
-            <button id="friday" onclick="productionFriday()"><strong>FRIDAY</strong></button>
-            <button id="saturday" onclick="productionSaturday()"><strong>SATURDAY</strong></button>
-            <button id="sunday" onclick="productionSunday()"><strong>SUNDAY</strong></button>
-            <button id="totalsales" onclick="totalProductionWeek()"><strong>WEEKLY TOTAL</strong></button>
-        </div>
+      <div class="prod">
+        <p id="prod"><strong>PRODUCTION</strong></p>
+        <button id="sheda" onclick="productionShedA()">
+          <strong>SHED A</strong>
+        </button>
+        <button id="shedb" onclick="productionShedB()">
+          <strong>SHED B</strong>
+        </button>
+        <button id="shedc" onclick="productionShedC()">
+          <strong>SHED C</strong>
+        </button>
+        <button id="shedd" onclick="productionShedD()">
+          <strong>SHED D</strong>
+        </button>
+        <button id="totalprod" onclick="totalProductionToday()">
+          <strong>DAILY TOTAL</strong>
+        </button>
+      </div>
+      <div class="vline"></div>
+      <div class="sales">
+        <p id="sales"><strong>SALES</strong></p>
+        <button id="monday" onclick="productionMonday()">
+          <strong>MONDAY</strong>
+        </button>
+        <button id="tuesday" onclick="productionTuesday()">
+          <strong>TUESDAY</strong>
+        </button>
+        <button id="wednesday" onclick="productionWednesday()">
+          <strong>WEDNESDAY</strong>
+        </button>
+        <button id="thursday" onclick="productionThursday()">
+          <strong>THURSDAY</strong>
+        </button>
+        <button id="friday" onclick="productionFriday()">
+          <strong>FRIDAY</strong>
+        </button>
+        <button id="saturday" onclick="productionSaturday()">
+          <strong>SATURDAY</strong>
+        </button>
+        <button id="sunday" onclick="productionSunday()">
+          <strong>SUNDAY</strong>
+        </button>
+        <button id="totalsales" onclick="totalProductionWeek()">
+          <strong>WEEKLY TOTAL</strong>
+        </button>
+      </div>
     </div>
     <div class="incometime">
-        <div id="incometitle"><strong>INCOME OVER TIME</strong></div>
-        <div class="incomemonths">
-            <button id="january" onclick="salesJanuary()"><strong>JANUARY</strong></button>
-            <button id="february" onclick="salesFebruary()"><strong>FEBRUARY</strong></button>
-            <button id="march" onclick="salesMarch()"><strong>MARCH</strong></button>
-            <button id="april" onclick="salesApril()"><strong>APRIL</strong></button>
-            <button id="may" onclick="salesMay()"><strong>MAY</strong></button>
-            <button id="june" onclick="salesJune()"><strong>JUNE</strong></button>
-            <button id="july" onclick="salesJuly()"><strong>JULY</strong></button>
-            <button id="august" onclick="salesAugust()"><strong>AUGUST</strong></button>
-            <button id="september" onclick="salesSeptember()"><strong>SEPTEMBER</strong></button>
-            <button id="october" onclick="salesOctober()"><strong>OCTOBER</strong></button>
-            <button id="november" onclick="salesNovember()"><strong>NOVEMBER</strong></button>
-            <button id="december" onclick="salesDecember()"><strong>DECEMBER</strong></button>
-        </div>
-        <div class="yearlycompare">
-            <button id="yearlytotal" onclick="totalYearlySales()"><strong>YEARLY TOTAL</strong></button>
-            <button id="compare" onclick="newRateComparison ()"><strong>NEW RATE COMPARISON</strong></button>
-            </div>
+      <div id="incometitle"><strong>INCOME OVER TIME</strong></div>
+      <div class="incomemonths">
+        <button id="january" onclick="salesJanuary()">
+          <strong>JANUARY</strong>
+        </button>
+        <button id="february" onclick="salesFebruary()">
+          <strong>FEBRUARY</strong>
+        </button>
+        <button id="march" onclick="salesMarch()">
+          <strong>MARCH</strong>
+        </button>
+        <button id="april" onclick="salesApril()">
+          <strong>APRIL</strong>
+        </button>
+        <button id="may" onclick="salesMay()"><strong>MAY</strong></button>
+        <button id="june" onclick="salesJune()"><strong>JUNE</strong></button>
+        <button id="july" onclick="salesJuly()"><strong>JULY</strong></button>
+        <button id="august" onclick="salesAugust()">
+          <strong>AUGUST</strong>
+        </button>
+        <button id="september" onclick="salesSeptember()">
+          <strong>SEPTEMBER</strong>
+        </button>
+        <button id="october" onclick="salesOctober()">
+          <strong>OCTOBER</strong>
+        </button>
+        <button id="november" onclick="salesNovember()">
+          <strong>NOVEMBER</strong>
+        </button>
+        <button id="december" onclick="salesDecember()">
+          <strong>DECEMBER</strong>
+        </button>
+      </div>
+      <div class="yearlycompare">
+        <button id="yearlytotal" onclick="totalYearlySales()">
+          <strong>YEARLY TOTAL</strong>
+        </button>
+        <button id="compare" onclick="newRateComparison ()">
+          <strong>NEW RATE COMPARISON</strong>
+        </button>
+      </div>
     </div>
-</body>
-
-
+  </body>
 </html>
