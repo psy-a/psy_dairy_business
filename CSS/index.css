@@ -23,7 +23,6 @@ header {
     display: flex;
     flex-direction: row;
     margin: 50px 150px 25px 150px;
-    border: solid 1px red;
     justify-content: space-around;
     align-items: center;
     height: auto;
@@ -33,6 +32,13 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-image: url(../Images/prod1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: green 2px solid;
+    height: auto;
+    width: 100%;
+    margin: 50px 0 50px 0;
 }
 .vline {
     border-right: solid 2px black;
@@ -44,62 +50,85 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-image: url(../Images/prod2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    border: green 2px solid;
 }
 #prod {
     font-size: xx-large;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 #sales {
     font-size: xx-large;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 #sheda {
-    margin: 10px 0 30px 0;
+    margin: 10px 0 50px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #shedb {
-    margin: 10px 0 30px 0;
+    margin: 20px 0 50px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #shedc {
-    margin: 10px 0 30px 0;
+    margin: 20px 0 50px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #shedd {
-    margin: 10px 0 30px 0;
+    margin: 20px 0 40px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #totalprod {
-    margin: 30px 0 0 0;
+    margin: 40px 0 40px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #monday {
     margin: 0 0 20px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #tuesday {
     margin: 10px 0 20px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #wednesday {
     margin: 10px 0 20px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #thursday {
     margin: 10px 0 20px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #friday {
     margin: 10px 0 20px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #saturday {
     margin: 10px 0 20px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #sunday {
     margin: 10px 0 10px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 #totalsales {
     margin: 30px 0 20px 0;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
