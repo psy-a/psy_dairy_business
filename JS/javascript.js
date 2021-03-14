@@ -138,54 +138,54 @@ var salesDecember = function () {
     var salesDay1 = totalMonday * 45;
     alert ("Total December Sales are KSh "+ salesDay1 * 31 +".")
 }
-var salesJanuary = function () {
+var salesJanuary1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 31;
 }
-var salesFebruary = function () {
+var salesFebruary1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 29;
 }
-var salesMarch = function () {
+var salesMarch1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 30;
 }
-var salesApril = function () {
+var salesApril1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 31;
 }
-var salesMay = function () {
+var salesMay1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 30;
 }
-var salesJune = function () {
+var salesJune1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 31;
 }
-var salesJuly = function () {
+var salesJuly1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 30;
 }
-var salesAugust = function () {
+var salesAugust1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 31;
 }
-var salesSeptember = function () {
+var salesSeptember1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 30;
 }
-var salesOctober = function () {
+var salesOctober1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 31;
 }
-var salesNovember = function () {
+var salesNovember1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 30;
 }
-var salesDecember = function () {
+var salesDecember1 = function () {
     var salesDay1 = totalMonday * 45;
     return salesDay1 * 31;
 }
 var totalYearlySales = function () {
-    alert ("Total Yearly Sales are KSh "+ (salesJanuary () + salesFebruary () + salesMarch () + salesApril () + salesMay () + salesJune () + salesJuly () + salesAugust () + salesSeptember () + salesOctober () + salesNovember () + salesDecember () ) +".")
+    alert ("Total Yearly Sales are KSh "+ (salesJanuary1 () + salesFebruary1 () + salesMarch1 () + salesApril1 () + salesMay1 () + salesJune1 () + salesJuly1 () + salesAugust1 () + salesSeptember1 () + salesOctober1 () + salesNovember1 () + salesDecember1 () ) +".")
 }
