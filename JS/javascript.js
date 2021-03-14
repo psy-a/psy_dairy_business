@@ -189,3 +189,11 @@ var salesDecember1 = function () {
 var totalYearlySales = function () {
     alert ("Total Yearly Sales are KSh "+ (salesJanuary1 () + salesFebruary1 () + salesMarch1 () + salesApril1 () + salesMay1 () + salesJune1 () + salesJuly1 () + salesAugust1 () + salesSeptember1 () + salesOctober1 () + salesNovember1 () + salesDecember1 () ) +".")
 }
+var newRateComparison = function () {
+    var newSalesJanuary = totalMonday * (49.60 * 31);
+    var difference = newSalesJanuary - salesJanuary1 ();
+    alert ("New January Sales are KSh "+ newSalesJanuary +", an increase of KSh "+ difference +".")
+    var newSalesFebruary = totalMonday * (49.60 * 31);
+    var difference = newSalesFebruary - salesFebruary1 ();
+    alert ("New February Sales are KSh "+ newSalesFebruary +", an increase of KSh "+ difference +".")
+}
