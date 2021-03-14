@@ -90,3 +90,102 @@ var totalProductionWeek = function () {
     var totalWeek = totalMonday + totalTuesday + totalWednesday + totalThursday + totalFriday + totalSaturday + totalSunday;
     alert ("Total Sales for this Week are Ksh "+ totalWeek * sellingPrice +".")
 }
+var salesJanuary = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total January Sales are KSh "+ salesDay1 * 31 +".")
+}
+var salesFebruary = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total February Sales are KSh "+ salesDay1 * 29 +".")
+}
+var salesMarch = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total March Sales are KSh "+ salesDay1 * 30 +".")
+}
+var salesApril = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total April Sales are KSh "+ salesDay1 * 31 +".")
+}
+var salesMay = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total May Sales are KSh "+ salesDay1 * 30 +".")
+}
+var salesJune = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total June Sales are KSh "+ salesDay1 * 31 +".")
+}
+var salesJuly = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total July Sales are KSh "+ salesDay1 * 30 +".")
+}
+var salesAugust = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total August Sales are KSh "+ salesDay1 * 31 +".")
+}
+var salesSeptember = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total September Sales are KSh "+ salesDay1 * 30 +".")
+}
+var salesOctober = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total October Sales are KSh "+ salesDay1 * 31 +".")
+}
+var salesNovember = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total November Sales are KSh "+ salesDay1 * 30 +".")
+}
+var salesDecember = function () {
+    var salesDay1 = totalMonday * 45;
+    alert ("Total December Sales are KSh "+ salesDay1 * 31 +".")
+}
+var salesJanuary = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 31;
+}
+var salesFebruary = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 29;
+}
+var salesMarch = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 30;
+}
+var salesApril = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 31;
+}
+var salesMay = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 30;
+}
+var salesJune = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 31;
+}
+var salesJuly = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 30;
+}
+var salesAugust = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 31;
+}
+var salesSeptember = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 30;
+}
+var salesOctober = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 31;
+}
+var salesNovember = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 30;
+}
+var salesDecember = function () {
+    var salesDay1 = totalMonday * 45;
+    return salesDay1 * 31;
+}
+var totalYearlySales = function () {
+    alert ("Total Yearly Sales are KSh "+ (salesJanuary () + salesFebruary () + salesMarch () + salesApril () + salesMay () + salesJune () + salesJuly () + salesAugust () + salesSeptember () + salesOctober () + salesNovember () + salesDecember () ) +".")
+}
