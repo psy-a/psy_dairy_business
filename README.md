@@ -3,7 +3,7 @@
 #### By **Aspin Isoe**
 ## Description
 This website allows one to view PSY Dairy Farm's production per shed, sales per day, weekly, monthly and yearly basis.
-## Prerequisites
+## Pre-requisites
 You need to have git installed.
 If not, you can install git with the following command in your terminal; '$ sudo apt-get install git-all`.
 ## Setup/Installation Requirements
