@@ -1,0 +1,22 @@
+header {
+    background-image: url(../Images/top1.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.headertext {
+    text-align: center;
+    color: white;
+    padding-top: 300px;
+}
+#farmname {
+    font-size: 3.3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+#farmtag {
+    font-size: 2.0em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
