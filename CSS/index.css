@@ -18,5 +18,88 @@ header {
     font-size: 2.0em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-
+}
+.prodsales {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 150px 25px 150px;
+    border: solid 1px red;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+.prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.vline {
+    border-right: solid 2px black;
+    height: 550px;
+    margin: 0 20px 0 20px;
+}
+.sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#prod {
+    font-size: xx-large;
+}
+#sales {
+    font-size: xx-large;
+}
+#sheda {
+    margin: 10px 0 30px 0;
+    font-size: x-large;
+}
+#shedb {
+    margin: 10px 0 30px 0;
+    font-size: x-large;
+}
+#shedc {
+    margin: 10px 0 30px 0;
+    font-size: x-large;
+}
+#shedd {
+    margin: 10px 0 30px 0;
+    font-size: x-large;
+}
+#totalprod {
+    margin: 30px 0 0 0;
+    font-size: x-large;
+}
+#monday {
+    margin: 0 0 20px 0;
+    font-size: x-large;
+}
+#tuesday {
+    margin: 10px 0 20px 0;
+    font-size: x-large;
+}
+#wednesday {
+    margin: 10px 0 20px 0;
+    font-size: x-large;
+}
+#thursday {
+    margin: 10px 0 20px 0;
+    font-size: x-large;
+}
+#friday {
+    margin: 10px 0 20px 0;
+    font-size: x-large;
+}
+#saturday {
+    margin: 10px 0 20px 0;
+    font-size: x-large;
+}
+#sunday {
+    margin: 10px 0 10px 0;
+    font-size: x-large;
+}
+#totalsales {
+    margin: 30px 0 20px 0;
+    font-size: x-large;
 }
