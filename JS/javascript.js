@@ -50,7 +50,7 @@ var productionShedC = function () {
 };
 var productionShedD = function () {
   alert(
-    "Milk Production for Today MOnday in Shed D is " + m4Monday + " Litres."
+    "Milk Production for Today Monday in Shed D is " + m4Monday + " Litres."
   );
 };
 var totalProductionToday = function () {
@@ -203,7 +203,7 @@ var salesDecember1 = function () {
 };
 var totalYearlySales = function () {
   alert(
-    "Total Yearly Sales are KSh " +
+    "Total Sales This Year are KSh " +
       (salesJanuary1() +
         salesFebruary1() +
         salesMarch1() +
